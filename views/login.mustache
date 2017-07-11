@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>LOGIN</title>
+   </head>
+   <body>
+      <h1>LOGIN</h1>
+      <h2> Please enter your username and password:</h2>
+
+      <form method="POST" action= "/login" name="login-form">
+         <input type="text" name="username" placeholder="Enter your Username">
+         <input type="password" name="password" placeholder="Enter your Password">
+         <input type="submit" name="submit">
+      </form>
+
+      <form method="POST" action= "/go-to-signup" name="go-to-signup">
+         <label name="signup"> Not a user? Sign up with us here:
+         <input type="submit" name="to-signup" value="Take Me to Sign Up!">
+      </form>
+
+   </body>
+</html>
